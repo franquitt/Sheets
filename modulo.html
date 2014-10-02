@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sheets</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sheets</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mis Modulos <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+          	<li><a href="mismodulo.html">Ir</a></li>
+            <li role="presentation" class="dropdown-header">Modulos</li>
+            <li><a href="#">Informatica 2ºA</a></li>
+            <li><a href="#">Informatica 2ºB</a></li>
+            <li><a href="#">Informatica 2ºC</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Informatica 3ºA</a></li>
+            <li><a href="#">Informatica 3ºC</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Agregar Alumnos</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Agregar Modulo</a></li>
+          </ul>
+        </li>
+        <li ><a href="#">Mensajes <span class="badge">14</span></a></li>
+        <li><a href="#">Centro de Alertas <span class="badge">569</span></a></li>
+        
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Nombre completo">
+        </div>
+        <button type="submit" class="btn btn-default">Buscar Alumno</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><p class="navbar-text navbar-right">Hola, <a href="#" class="navbar-link">Prof. Jorge</a></p></li>
+        <li> <a><span class="glyphicon glyphicon-user"></span></a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Estados</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Cerrar sesion</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="alert alert-success" role="alert" style="margin-top:5%"><h1>Informatica 3º C</h1></div>
+   
+    <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Integrantes</div>
+  <!-- Table -->
+  <table class="table table-hover">
+    <thead>
+    <tr>
+    	<th>#</th>
+        <th>Nombre</th>
+        <th>Act 1</th>
+        <th>Act 2</th>
+        <th>Act 3</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="success">
+    	<td>1</td>
+        <td>Juan Laprida</td>
+        <td><span class="glyphicon glyphicon-ok"></span></td>
+        <td><span class="glyphicon glyphicon-ok"></span></td>
+    	<td><span class="glyphicon glyphicon-ok"></span></td>
+    </tr>
+    
+    <a><tr>
+    	<td>2</td>
+        <td>Pepe Sapo</td>
+        <td><span class="glyphicon glyphicon-ok"></span></td>
+        <td><span class="glyphicon glyphicon-repeat"></span></td>
+        <td><span class="glyphicon glyphicon-remove"></span></td>
+    
+    </tr></a>
+    <tr>
+    	<td>3</td>
+        <td><a style="color:black">Jorge Curios</a></td>
+        <td><span class="glyphicon glyphicon-repeat"></span></td>
+        <td><span class="glyphicon glyphicon-ok"></span></td>
+        <td><span class="glyphicon glyphicon-ok"></span></td>
+
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- botones con los procesos que uno puede hacer en la pagina-->
+   
+    <ul class="nav nav-pills">
+      <li ><a href="#">Generar Informe</a></li>
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Sucesos <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Agregar</a></li>
+          <li><a href="#">Editar</a></li>
+          
+        </ul>
+      </li>
+      <li ><a href="#">Adjunto <span  class="glyphicon glyphicon-paperclip"></span></a></li>
+    </ul>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
